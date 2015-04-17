@@ -2,7 +2,7 @@
 
 ## Synopsis
 
-This Nuxeo plugin project enables use of other Javascript-based plugins. It overrides default custom-includes.xhtml in order to include custom code.
+This Nuxeo plugin project enables use of other Javascript-based plugins. It overrides default **custom-includes.xhtml** in order to include custom code.
 
 ## Code Example
 
