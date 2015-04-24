@@ -6,12 +6,12 @@ This Nuxeo plugin project enables use of other Javascript-based plugins. It over
 
 ## Code Example
 
-``` xml
+``` javascript
 ...
-<!-- Include your own js files here from other plug-ins -->
-<script type="text/javascript"
-  src="#{baseURL}js/?scripts=custom-plugin.js%7Cother-plugin.js">
-</script>
+var source = "#{baseURL}js/?scripts=";
+// Include your own js file here from other plug-ins
+var scripts = [ "feedback.js", "intercom.js", "whatfix.js" ];
+var scriptsLength = scripts.length;
 ...
 ```
 
